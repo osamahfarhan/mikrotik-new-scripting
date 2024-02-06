@@ -16,7 +16,7 @@
 }
 
 ## old Way = 
-### Get Active Address fast;
+### Get Active Address Faster;
 
 :foreach i in=[/ip hotspot active find user="test"] do={
 
@@ -27,7 +27,7 @@
 };
 
 ## old Way = 
-### Get Active Address very fast;
+### Very Fast Get Active Address ;
 
 {
 
@@ -45,8 +45,7 @@
 
 ### BOOOOOM ....
 ### Can You Imagine 
-
-#You Could Do Any Thing insid do={ ...  }
+### You Could Do Any Thing insid do={ ...  }
 
 /ip hotspot active find [:if (user="test" && mac-address!="44:33:33:22:11:00:33") do={/log info ("Active Removed the user id=".$".id");remove $".id";}];
 
